@@ -23,6 +23,8 @@ pipeline
         //To avoid concurrent builds to avoid multiple checkouts
         disableConcurrentBuilds()
     }
+    
+    // Employee API CI-CD Pipeline by Vinay Patanjali
     stages
     {
         stage ('checkout')
